@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Social Links</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    width:320px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.profile img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid #4facfe;
+}
+
+h2{
+    margin:10px 0;
+}
+
+p{
+    color:gray;
+    font-size:14px;
+}
+
+.link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    background:#4facfe;
+    color:white;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.link img{
+    width:20px;
+}
+
+.link:hover{
+    background:#00c6ff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="profile">
+<img src="https://i.imgur.com/4Z7b8Qp.png">
+<h2>Dipshan Shrestha</h2>
+<p>Follow me on social media</p>
+</div>
+
+<a class="link" href="https://www.facebook.com/dipshan.shrestha.598631" target="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bWGQ4Ri09T-K-TKN8ryLlvRUnu6wKhbo5Q&s">
+Facebook
+</a>
+
+<a class="link" href="https://www.instagram.com/dipshan_sth" target="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99fYRo34JA54o_N19FzYfOyciNebifw5n5g&s">
+Instagram
+</a>
+
+<a class="link" href="https://youtube.com/@newa-offical-yt?feature=shared" target="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Gt0IBkowXPVkjvnzxncz1KBfXkOA5cnK5w&s">
+YouTube
+</a>
+
+<a class="link" href="https://www.tiktok.com/@dipshan.shrestha20?_r=1&_t=ZS-95BxUoLHsZw"="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SsLlduiKMK1pFwR66SFQloJgLrQFBBvNew&s">
+TikTok
+</a>
+
+<a class="link" href="https://wa.me/qr/GVDOHREBJ53ZP1" target="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8f6MjyQ5wbWMxyEA_oz25oT-hyv5Pj73zA&s">
+WhatsApp
+</a>
+
+</div>
+
+</body>
+</html>
